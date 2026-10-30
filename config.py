@@ -1,3 +1,4 @@
-# Weather service settings
-WEATHER_API_KEY = "wx_7Hq9Lm2Vt8Rz4Np6Xc1Bk3YdGs0Fj"
+import os
+
+WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
 CITY = "Accra"
